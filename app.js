@@ -87,3 +87,13 @@ for (let i = 0; i < matn3.length; i++) {
 }
 console.log(natija3);
 //16. Matnda 'javascript' so‘zi nechta ekanligini aniqlang. Misol: 'javascript is good javascript' → 2
+let java = prompt("Matn kiriting:");
+let result = 0;
+let words = java.split(" ");
+for (let i = 0; i < words.length; i++) {
+  if (words[i] === "javascript") {
+    result++;
+  }
+}
+console.log(result);
+//17. Matndan faqat harflarni qoldirib, raqamlarni olib tashlang. Misol: 'js123code' → jscode
